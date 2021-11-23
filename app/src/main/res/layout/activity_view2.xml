@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity"
+    android:orientation="vertical"
+    android:background="#4F69FB"
+    android:id="@+id/view_root1">
+    <TextView
+        android:id="@+id/margarita_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double Cheese"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/price_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/margarita_id1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="120"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+    <EditText
+        android:id="@+id/value_id1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/price_id1"
+        android:background="@drawable/coustom_edittext"
+        android:drawablePadding="20dp"
+        android:hint="Add Quantity"
+        android:paddingStart="20dp"
+        android:textColorHint="#4F69FB"
+        />
+    <Button
+        android:id="@+id/add_btn1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/value_id1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_resource"
+        android:backgroundTint="@color/white"
+        android:fallbackLineSpacing="true"
+        android:text="Add"
+        android:textColor="#4F69FB" />
+    <ImageView
+        android:id="@+id/icon_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pizza_icon"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

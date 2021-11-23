@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424962978048",
+    "project_id": "pizzadelivery-78682",
+    "storage_bucket": "pizzadelivery-78682.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424962978048:android:18b44803cb14990b9243e5",
+        "android_client_info": {
+          "package_name": "com.example.pizzadelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424962978048-ailg9hqtp711nmcjs5purg9jmm7gfnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkKN3KipYdnDsIPiKZvnbM5m1z_NnBVu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424962978048-ailg9hqtp711nmcjs5purg9jmm7gfnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:id="@+id/relative_layout"
+    android:background="#F1D170"
+    >
+
+    <ImageView
+        android:id="@+id/img_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pizza_icon"
+        />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_id"
+        android:text="Pizza Name:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Pizza Price:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text_name"
+        android:layout_toEndOf="@id/text_price"
+        android:text="Pizza Quantity:"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text_name"
+        android:layout_toEndOf="@id/text_quantity"
+        android:text="Pizza Quantity:"
+        android:textSize="16sp" />
+
+</RelativeLayout>

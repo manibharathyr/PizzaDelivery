@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    android:id="@+id/create_root"
+    android:background="#4F69FB">
+
+    <TextView
+        android:id="@+id/text_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Sign Up"
+        android:textColor="#FEFCFC"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_signup"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/coustom_edittext"
+        android:drawableStart="@drawable/ic_account_circle_24"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:hint="Enter Name"
+        android:paddingStart="20dp"
+        android:textColorHint="#4F69FB" />
+
+    <EditText
+        android:id="@+id/mail_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name_id"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/coustom_edittext"
+        android:drawableStart="@drawable/ic_mail_24"
+        android:drawableTint="@color/white"
+        android:drawablePadding="20dp"
+        android:hint="Enter mail id"
+        android:paddingStart="20dp"
+        android:textColorHint="#4F69FB" />
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mail_id"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/coustom_edittext"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:hint="Enter Password"
+        android:paddingStart="20dp"
+        android:textColorHint="#4F69FB" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_resource"
+        android:backgroundTint="@color/white"
+        android:fallbackLineSpacing="true"
+        android:text="Save"
+        android:textColor="#4F69FB" />
+
+</RelativeLayout>
